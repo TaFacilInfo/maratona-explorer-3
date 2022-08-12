@@ -5,33 +5,21 @@
   }
   
   body {
-    background-color: #0e004e;
+    /*background-color: #c4a38c;*/
     font-family: 'Roboto', sans-serif;
-  }
-  
-  ul {
-    list-style: decimal;
-  }
-  
-  /* FONTS */
-  h1, .price {
-    font-family: 'Roboto Serif', serif;
-    /*text-transform: uppercase;*/
-    color: #ff7575;
+    
+    background-image: url(./img/Background.jpg);
+    background-size: cover;
+    background-position: center;
+
   }
   
   /* HEADER */
   header {
     padding: 32px 0;
     text-align: center;
-  }
-  
-  header,
-  section {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  
+  }  
+ 
   header h1 {
     margin-bottom: 4px;
     font-size: 28px;
@@ -51,48 +39,71 @@
   }
   
   /* SECTION */
+
   section {
+    max-width: 350px;
+    margin: 0 auto;
     margin-bottom: 24px;
   }
   
-  hr {
-    margin-bottom: 15px;
-  }
   section h2 {
-    background-color: #002d80;
+    background-color: #0014c7;
     padding: 8px 16px;
     text-align: center;
     color: #ffffff;
+    border-radius: 15px;
   
     margin-bottom: 24px;
+    font-size: 22px;
+  }
+
+  .section-item {
+    /*border: 1px solid #ff0000;*/
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #cacfff41;
+  }
+
+  .section-item h2 span{
+    color: #ffe3e3;
     font-size: 18px;
   }
-  
+
   ul li {
-    margin-bottom: 16px;
-    color: #ff0000;
+    margin-bottom: 10px;
+    background-color: #ffead4;
+    display: flex;
+    
+    padding: 15px;
+    border-radius: 15px;
   }
   
-  li .details {
-    max-width: 500px;
+  .details {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .price {
+    max-width: 100px;
+    margin: 0 auto;
   }
   
   .details h3{
     margin-bottom: 8px;
     font-size: 16px;
     line-height: 19px;
-    color: #ff0000;
+    color: #000000;
   }
   
   .details p {
-    color: rgb(255, 255, 255);
+    color: rgb(26, 26, 26);
     font-size: 14px;
     line-height: 21px;
   }
 
   footer p {
-    color: #ffee56;
+    color: #ffe600;
     text-align: center;
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
