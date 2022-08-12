@@ -21,7 +21,7 @@
  
   header h1 {
     margin-bottom: 4px;
-    font-size: 28px;
+    font-size: 35px;
     line-height: 33px;
     color: #ff0000;
   }
@@ -37,22 +37,35 @@
     color: rgba(255, 255, 255, 0.986);
   }
   
-  nav li{
-    max-width: 350px;
+  nav {
+    max-width: 350px;    
+    margin: auto;
+  }
+
+  nav li{ 
     margin: 0 auto;
-    align-items: center;
-    padding: 20 200px;
   }
 
   .menu ul{ 
     display: flex;
   }
 
-  .menu li {
-    padding: 6px 20px;
-    font-size: 12px;
-    border-radius: 10px;
+  .menu ul li {    
+    background-color: #0012b8;
+    border-radius: 30px;
+    transition: transform .5s;
   }
+
+  .menu ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+ .menu ul li:hover {
+    transform: scale(1.2);
+    background-color: #000f52;
+}
 
   /* SECTION */
 
